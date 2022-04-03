@@ -8,6 +8,7 @@ const Review = () => {
   return (
     <section>
       <div>
+        <h1>What our Castomer say!</h1>
         {reviews.map((review) => (
           <CastomerReview review={review}></CastomerReview>
         ))}
