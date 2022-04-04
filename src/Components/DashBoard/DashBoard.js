@@ -5,7 +5,6 @@ import {
   Legend,
   Line,
   LineChart,
-  ResponsiveContainer,
   Tooltip,
   XAxis,
   YAxis,
@@ -64,16 +63,13 @@ const DashBoard = () => {
         </LineChart>
       </div>
       <div>
-        {/* <ResponsiveContainer width="100%" height="100%">
-          
-        </ResponsiveContainer> */}
         <BarChart width={450} height={400} data={data}>
           <Bar dataKey="investment" fill="#8884d8"></Bar>
           <Bar dataKey="revenue" fill="#82ca9d"></Bar>
-          <XAxis dataKey="month"></XAxis>
-          <Legend />
-          <YAxis></YAxis>
+          <XAxis dataKey="month" />
+          <YAxis />
           <Tooltip />
+          <Legend />
         </BarChart>
       </div>
     </section>
