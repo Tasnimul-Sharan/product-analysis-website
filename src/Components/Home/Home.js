@@ -1,9 +1,9 @@
 import React from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
-import CastomerReview from "../CastomerReview/CastomerReview";
 import useReview from "../useReview/useReview";
 import drone from "./images/drone.png";
+import Product from "../Product/Product";
 
 const Home = () => {
   const [reviews] = useReview();
@@ -29,15 +29,12 @@ const Home = () => {
 
       <div>
         <h3>Castomer review(3)</h3>
-        {
-          // const slices = reviews.slice(0, 3)
-          reviews.map(
-            (review) => (
-              <CastomerReview review={review} />
-            )
+        <div className="Home-container">
+          {reviews.slice(0, 3).map((review) => (
             //review.slice(0, 3)
-          )
-        }
+            <Product review={review} />
+          ))}
+        </div>
         <Link to="/review">
           <button>See all Reviews</button>
         </Link>
