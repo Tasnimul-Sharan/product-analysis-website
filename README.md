@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Product Analysis Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[My live website]()
+
+## What i have done in this project , writting bellow :
+
+- Here a home component
+- Here a review component
+- Here a dashboard component
+- Here a blog component
 
 ## Available Scripts
 

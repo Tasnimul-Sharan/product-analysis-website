@@ -6,7 +6,7 @@ import useReview from "../useReview/useReview";
 import drone from "./images/drone.png";
 
 const Home = () => {
-  const [reviews] = useReview();
+  const [reviews, setReviews] = useReview();
 
   return (
     <section>
@@ -30,7 +30,7 @@ const Home = () => {
       <div>
         <h3>Castomer review(3)</h3>
         {reviews.map((review) => (
-          <CastomerReview review={review}></CastomerReview>
+          <CastomerReview review={review} />
         ))}
         <Link to="/review">
           <button>See all Reviews</button>
