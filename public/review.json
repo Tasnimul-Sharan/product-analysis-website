@@ -1,32 +1,34 @@
 [
     {
       "name": "Lori Powell",
-      "reviews": "I really love this product",
-      "ratings": 4.5
+      "reviews": "This is one easy drone to fly , it pretty much flys by itself, Recommend this to all the first time flyers this will definitely get you into flying you won't regret it, I really love this drone",
+      "ratings": 5
     },
     {
       "name": "Ava Lindsay",
-      "reviews": "This is awsome",
-      "ratings": 4.5
+      "reviews": "Bought as a Christmas gift for my boyfriend,  he really likes this drone. Its his first one so I didn't want to spend a small fortune in case he crashes it while learning to fly it.",
+      "ratings": 5
     },
     {
       "name": "Pat Woodard",
-      "reviews": "This is awsome",
-      "ratings": 4.5
+      "reviews": "Great starter drone, did not want to spend $400 on one for the first time and absolutely destroy it.",
+      "ratings": 5
     },
     {
       "name": "Huff Blackburn",
-      "reviews": "This is awsome",
+      "reviews":" Great drone! We bought this as a a Christmas gift for my nephew and he  loves it. It was super easy to use, the instructions are so straight forward.  We were impressed with the quality we got for the price, we had it on sale!,",
       "ratings": 4.5
     },
     {
       "name": "Connie Stephens",
-      "reviews": "awesome",
-      "ratings": 4.5
+      "reviews": "If you are really good at flying drones than maybe it will be easy to control but it just feels like a cheap drone....In my opinion best drone in this price range and better than some higher priced drones. "
+
+      ,
+      "ratings": 5
     },
     {
       "name": "Norris Douglas",
-      "reviews": "i want to buy it again",
+      "reviews": "The drone was a very good gift for my son's birthday as he loved it and still plays with it daily. It is a great beginner drone as it comes with very easy controls along with a good range. The drone is very easy to charge, the battery life is very long and since it comes with two batteries the battery life is doubled. I would recommend this drone for anyone as my son had a very good experience with it.",
       "ratings": 5
     }
   ]

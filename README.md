@@ -5,7 +5,7 @@
 ## What i have done in this project writting bellow :
 
 - First i create a react app and install react router . In this project i have created 4 route Home, Review, Dashboard, Blogs.
-- In Home page there i have showed a product picture and details and some castomer review and at the bootom here has a button when anyone click on this button it will take you review page.In review page there are same as castomer reviews .
+- In Home page there i have showed a product picture and details and some castomer review , in home page there are only three reviews and at the bootom here has a button when anyone click on this button it will take you castomer review page.In review page there are all castomer reviews .
 - In Dashboard page there i showed some reachart, for this i have install reachart in this project.
 - In Blogs page there are two Questions and answer.
 

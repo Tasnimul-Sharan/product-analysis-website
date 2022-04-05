@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <section>
       <div className="home">
-        <div>
+        <div className="home-container">
           <h1>Drone Neutralization Device</h1>
           <p>
             Drones now have many functions, ranging from monitoring climate
@@ -31,13 +31,14 @@ const Home = () => {
         <h3>Castomer review(3)</h3>
         <div className="Home-container">
           {reviews.slice(0, 3).map((review) => (
-            //review.slice(0, 3)
             <Product review={review} />
           ))}
         </div>
-        <Link to="/review">
-          <button>See all Reviews</button>
-        </Link>
+        <div className="home-btn">
+          <Link to="/review">
+            <button>See all Reviews</button>
+          </Link>
+        </div>
       </div>
     </section>
   );

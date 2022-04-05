@@ -1,10 +1,9 @@
 .Review-item {
   border: 1px solid #95a0a7;
-  border-radius: 8px;
-  padding: 8px;
-  margin: 21px;
-  width: 571px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  border-radius: 10px;
+  /* padding: 8px; */
+  /* margin: 21px; */
+  width: 300px;
+  /* display: flex;
+  position: relative; */
 }

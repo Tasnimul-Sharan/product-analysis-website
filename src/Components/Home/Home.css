@@ -5,11 +5,16 @@
   justify-content: space-between;
 }
 
-.home p {
+.home-container p {
   /* display: inline-block; */
   text-align: center;
   width: 80%;
   color: rgb(70, 66, 66);
+}
+
+.home-container h1 {
+  font-size: 40px;
+  color: coral;
 }
 
 .Home-container {
@@ -17,4 +22,24 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 45px;
   margin: 100px 50px;
+}
+
+.home-container button {
+  background-color: rgb(72, 33, 180);
+  color: antiquewhite;
+  width: 10%;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  border: none;
+}
+
+.home-btn button {
+  background-color: cornflowerblue;
+  width: 12%;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+  border: none;
+  /* padding: ; */
 }
